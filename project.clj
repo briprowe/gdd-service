@@ -5,6 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [io.pedestal/pedestal.service "0.4.0"]
+                 [org.postgresql/postgresql "9.4-1201-jdbc41"]
+                 [org.clojure/java.jdbc "0.4.1"]
 
                  ;; Remove this line and uncomment one of the next lines to
                  ;; use Immutant or Tomcat instead of Jetty:
