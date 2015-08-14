@@ -7,5 +7,7 @@
    :user "gf8gtyxqredf9q6"
    :password "zd6vgwc3i2zkpgs"})
 
-(j/query postgress-connection
-         ["select * from rtma_grids"])
+(def query
+  []
+  (j/query postgress-connection
+           ["select * from rtma_grids"]))
